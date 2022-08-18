@@ -16,5 +16,6 @@ const discountButton = document.getElementById('btn-discount').addEventListener(
         const discount = (mainPrice / 100) * 30;
         const afterDiscount = mainPrice - discount;
         price.innerText = afterDiscount;
+        discountCode.value = '';
     }
 })

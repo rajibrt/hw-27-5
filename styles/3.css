@@ -1,3 +1,10 @@
+* {
+    * {
+        margin: 0;
+        border: 0;
+    }
+}
+
 .card-section {
     display: block;
     position: absolute;
@@ -7,6 +14,7 @@
     padding: 20px;
     border: 1px solid rgb(211, 211, 211);
     border-radius: 6px;
+
 }
 
 .notice {
@@ -63,4 +71,12 @@ input {
     border-radius: 6px 0px 0px 6px;
     border: 1px solid rgb(226, 226, 226);
     width: 50%;
+}
+
+/* Media Quarry  */
+
+@media only all and (max-width: 600px) {
+    .card-section {
+        width: 70%;
+    }
 }
