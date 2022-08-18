@@ -8,7 +8,7 @@ const discountButton = document.getElementById('btn-discount').addEventListener(
     console.log(validCode);
 
     if (validCode !== 'DOM') {
-        alert('Code not valid')
+        alert('Code not valid (Valid code is - DOM)')
         discountCode.value = '';
         return;
     }
